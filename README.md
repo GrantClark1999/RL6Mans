@@ -108,10 +108,10 @@ In this mode, two people from the queue will be chosen at random to be the team 
 In this mode, teams are assigned completely at random.
 
 &nbsp;&nbsp;&nbsp;&nbsp;Embed / Message:
+  - Instructions
   - Show current teams
 
 &nbsp;&nbsp;&nbsp;&nbsp;Reactions:
-  - Instructions
   - 🔄 -> Re-randomize teams
   - ▶ -> Play game
 
