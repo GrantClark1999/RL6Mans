@@ -184,19 +184,19 @@ Ends the match/series and show the results of the series. Allows users to now st
 # Pricing
 | Features \ Package   |  Basic  | Standard | Premium  |  Oil Prince  |
 | -------------------- | :-----: | :------: | :------: | :----------: |
-| Open Source          |    ✔    |    ✔     |    X     |      X       |
+| Open Source          |    ✔    |    ✔     |    ❌     |      ❌       |
 | Commands             |    ✔    |    ✔     |    ✔     |      ✔       |
 | Game Logic           |    ✔    |    ✔     |    ✔     |      ✔       |
 | Embeds + Reactions   |    ✔    |    ✔     |    ✔     |      ✔       |
 | Concurrent Queues    |    ✔    |    ✔     |    ✔     |      ✔       |
 | Basic Maintenance    |    ✔    |    ✔     |    ✔     |      ✔       |
 | Communication        |    ✔    |    ✔     |    ✔     |      ✔       |
-| Database Integration |    X    |    ✔     |    ✔     |      ✔       |
-| Feature Revision     |    X    |    ✔     |    ✔     |      ✔       |
-| Hosting              |    X    |    X     |    ✔     |      ✔       |
-| New Features         |    X    |    X     |    ✔     |      ✔       |
-| Future Website       |    X    |    X     |    X     |      ✔       |
-| Exclusive Rights     |    X    |    X     |    X     |      ✔       |
+| Database Integration |    ❌    |    ✔     |    ✔     |      ✔       |
+| Feature Revision     |    ❌    |    ✔     |    ✔     |      ✔       |
+| Hosting              |    ❌    |    ❌     |    ✔     |      ✔       |
+| New Features         |    ❌    |    ❌     |    ✔     |      ✔       |
+| Future Website       |    ❌    |    ❌     |    ❌     |      ✔       |
+| Exclusive Rights     |    ❌    |    ❌     |    ❌     |      ✔       |
 | **Price**            | **$30** | **$60**  | **$100** | **$15/hour** |
 
 ## Feature Breakdown
