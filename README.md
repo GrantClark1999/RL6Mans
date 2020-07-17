@@ -1,3 +1,24 @@
+- [RL6Mans Discord Bot](#rl6mans-discord-bot)
+  - [About](#about)
+  - [General Commands (Discord)](#general-commands-discord)
+  - [Host-Only Commands (Discord)](#host-only-commands-discord)
+  - [Admin-Only Commands (Discord)](#admin-only-commands-discord)
+  - [Gameplay](#gameplay)
+    - [Starting a Queue](#starting-a-queue)
+    - [Registration](#registration)
+    - [Mode Select](#mode-select)
+      - [Captains Mode](#captains-mode)
+      - [Random Mode](#random-mode)
+    - [Play Game](#play-game)
+    - [Report](#report)
+    - [Continue?](#continue)
+    - [End Game](#end-game)
+- [Pricing](#pricing)
+  - [Feature Breakdown](#feature-breakdown)
+
+
+# RL6Mans Discord Bot
+
 ## About
 
 RL6Mans is a Discord Bot that allows you to create multiple 6-Mans queues in the same server, with elegant reaction-based design.
@@ -29,11 +50,11 @@ RL6Mans is a Discord Bot that allows you to create multiple 6-Mans queues in the
 
 ## Gameplay
 
-### **Starting a Queue**
+### Starting a Queue
 
 To start queueing for a 6-mans, type `rl!queue`. You will become the host of that queue, and people of your rank or higher will be able to join your queue.
 
-### **Registration**
+### Registration
 
 When the queue starts, a message will be sent out for other users to register in your game.
 
@@ -50,7 +71,7 @@ When the queue starts, a message will be sent out for other users to register in
 &nbsp;&nbsp;&nbsp;&nbsp;Next State:
   - [Mode Select](#mode-select) : When 6 people have joined the queue and have all readied-up
 
-### **Mode Select**
+### Mode Select
 
 &nbsp;&nbsp;&nbsp;&nbsp;Embed / Message:
   - Reaction -> Action mapping
@@ -63,7 +84,7 @@ When the queue starts, a message will be sent out for other users to register in
   - [Captains Mode](#captains-mode) : When at least 4 people have chosen captains mode
   - [Random Mode](#random-mode) : When at least 4 people have chosen random mode
 
-#### **Captains Mode**
+#### Captains Mode
 
 In this mode, two people from the queue will be chosen at random to be the team captains. One of the captains will be chosen at random to go first. That captain will choose 1 player to add to their team. The second captain will then choose 2 players to add to their team. The last player will be assigned to the first captain's team.
 
@@ -79,7 +100,7 @@ In this mode, two people from the queue will be chosen at random to be the team 
 &nbsp;&nbsp;&nbsp;&nbsp;Next State:
   - [Play Game](#play-game) : When all players are assigned teams
 
-#### **Random Mode**
+#### Random Mode
 
 In this mode, teams are assigned completely at random.
 
@@ -95,7 +116,7 @@ In this mode, teams are assigned completely at random.
   - [Play Game](#play-game) : When at least `4` players have chosen to play the game / accept the current teams.
 
 
-### **Play Game**
+### Play Game
 
 Now, you play your Rocket League match. Report back when the game ends.
 
@@ -111,7 +132,7 @@ Now, you play your Rocket League match. Report back when the game ends.
   - [Report](#report) : When at least `4` people have indicated that the match has ended.
 
 
-### **Report**
+### Report
 
 Report the results of the last match. Will assign points based on match winner and update database.
 
@@ -127,7 +148,7 @@ Report the results of the last match. Will assign points based on match winner a
   - [Continue?](#play-again)
 
 
-### **Continue?**
+### Continue?
 
 Players can determine if they would like to play another match/series, or if they would like to stop.
 
@@ -144,7 +165,7 @@ Players can determine if they would like to play another match/series, or if the
   - [End Game](#end-game) : When at least `4` people have chosen to end the current match/series.
 
 
-### **End Game**
+### End Game
 
 Ends the match/series and show the results of the series. Allows users to now start a new queue
 
@@ -154,3 +175,39 @@ Ends the match/series and show the results of the series. Allows users to now st
 &nbsp;&nbsp;&nbsp;&nbsp;Reactions: *none*
 
 &nbsp;&nbsp;&nbsp;&nbsp;Next State: *none*
+
+
+# Pricing
+| Features \ Package   |  Basic  | Standard | Premium  |  Oil Prince  |
+| -------------------- | :-----: | :------: | :------: | :----------: |
+| Open Source          |    ✔    |    ✔     |    X     |      X       |
+| Commands             |    ✔    |    ✔     |    ✔     |      ✔       |
+| Game Logic           |    ✔    |    ✔     |    ✔     |      ✔       |
+| Embeds + Reactions   |    ✔    |    ✔     |    ✔     |      ✔       |
+| Concurrent Queues    |    ✔    |    ✔     |    ✔     |      ✔       |
+| Basic Maintenance    |    ✔    |    ✔     |    ✔     |      ✔       |
+| Communication        |    ✔    |    ✔     |    ✔     |      ✔       |
+| Database Integration |    X    |    ✔     |    ✔     |      ✔       |
+| Feature Revision     |    X    |    ✔     |    ✔     |      ✔       |
+| Hosting              |    X    |    X     |    ✔     |      ✔       |
+| New Features         |    X    |    X     |    ✔     |      ✔       |
+| Future Website       |    X    |    X     |    X     |      ✔       |
+| Exclusive Rights     |    X    |    X     |    X     |      ✔       |
+| **Price**            | **$30** | **$60**  | **$100** | **$15/hour** |
+
+## Feature Breakdown
+| Feature              | Description                                                                 |
+| -------------------- | --------------------------------------------------------------------------- |
+| Open Source          | Source code publically available on github for anyone to use/modify.        |
+| Commands             | General, Host, and Admin commands as outlined above.                        |
+| Game Logic           | Outlined game flow/logic for running 6-mans queues.                         |
+| Embeds & Reactions   | Outlined form of bot messaging and reaction-based queueing.                 |
+| Concurrent Queues    | Allows for multiple queues at a given time.                                 |
+| Basic Maintenance    | Bux fixing, unintended side-effects, and broken game feature maintenance.   |
+| Communication        | Live updates and feedback while in development                              |
+| Database Integration | Stores leaderboard and other persistent information in a Firebase database. |
+| Feature Revision     | Revise/rework a functional game feature in a major way.                     |
+| Hosting              | Bot is hosted in the cloud through Firebase and maintained.                 |
+| New Features         | Allows for future addition of new game features in Discord.                 |
+| Future Website       | Full website to manage/interact with games, view leaderboards, etc.         |
+| Exclusive Rights     | Exclusive rights to monetize, advertise, and distribute.                    |
