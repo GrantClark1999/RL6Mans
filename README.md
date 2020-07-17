@@ -197,7 +197,7 @@ Ends the match/series and show the results of the series. Allows users to now st
 | New Features         |    ❌    |    ❌     |    ✔     |      ✔       |
 | Future Website       |    ❌    |    ❌     |    ❌     |      ✔       |
 | Exclusive Rights     |    ❌    |    ❌     |    ❌     |      ✔       |
-| **Price**            | **$30** | **$60**  | **$100** | **$15/hour** |
+| **Price**            | **$50** | **$75**  | **$100** | **$15/hour** |
 
 ## Feature Breakdown
 | Feature              | Description                                                                 |
