@@ -59,6 +59,7 @@ To start queueing for a 6-mans, type `rl!queue`. You will become the host of tha
 When the queue starts, a message will be sent out for other users to register in your game.
 
 &nbsp;&nbsp;&nbsp;&nbsp;Embed / Message:
+  - Instructions
   - The host of the queue
   - The role(s) that queue allows
   - The current registered players, along with their respective statuses and rank/roles
@@ -74,6 +75,7 @@ When the queue starts, a message will be sent out for other users to register in
 ### Mode Select
 
 &nbsp;&nbsp;&nbsp;&nbsp;Embed / Message:
+  - Instructions
   - Reaction -> Action mapping
 
 &nbsp;&nbsp;&nbsp;&nbsp;Reactions:
@@ -89,6 +91,7 @@ When the queue starts, a message will be sent out for other users to register in
 In this mode, two people from the queue will be chosen at random to be the team captains. One of the captains will be chosen at random to go first. That captain will choose 1 player to add to their team. The second captain will then choose 2 players to add to their team. The last player will be assigned to the first captain's team.
 
 &nbsp;&nbsp;&nbsp;&nbsp;Embed / Message:
+  - Instructions
   - Show current teams
   - Show number emoji + player name for each unassigned player
   - Reaction -> Action mapping
@@ -108,6 +111,7 @@ In this mode, teams are assigned completely at random.
   - Show current teams
 
 &nbsp;&nbsp;&nbsp;&nbsp;Reactions:
+  - Instructions
   - 🔄 -> Re-randomize teams
   - ▶ -> Play game
 
